@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class bmiCalculator {
+public class WeightCalculator {
 
     @Test
     public void starvationResultTest() {
