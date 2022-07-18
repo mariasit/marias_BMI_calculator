@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="0" name="title">Calculator</title>
+    <style>
+        h1 {
+            color: green;
+            font-size: 80px;
+            text-align: center;
+        }
+        h2 {
+            color: rosybrown;
+            font-size: 50px;
+            text-align: center;
+        }
+        h3 {
+            color: darkblue;
+            font-size: 30px;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: cadetblue;
+        }
+        td {
+            background-color: snow;
+        }
+        label, select, input, img {
+            display: block;
+            text-align: center;
+            margin: auto;
+        }
+        a{
+            display: block;
+            text-align: center;
+            margin: auto;
+            color: darkred;
+            font-size: 20px;
+        }
+        fieldset {
+            background-color: lightgray;
+            border: solid 1px;
+        }
+
+        legend {
+            background-color: gray;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1 id="h1" name="welcome_user" align="center">Welcome, Stranger!</h1>
+<h2 id="h2" name="my_name" align="center">My name is Maria!</h2>
+<h3 id="h3" name="invitation_to_view" align="center">Please, see table below!</h3>
+
+<table id="t1able" style="width:40%" align="center">
+    <tr>
+        <th>Country</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>Belarus</td>
+        <td>Grodno</td>
+    </tr>
+    <tr>
+        <td>France</td>
+        <td>Paris</td>
+    </tr>
+    <tr>
+        <td>Spain</td>
+        <td>Madrid</td>
+    </tr>
+</table>
+
+<br>
+<label id="list_header" style="color:blue;">Favorites groups:</label>
+<select id="list1" name="best_groups" style="text-align: center">
+    <option value="NaviBand">NaviBand</option>
+    <option value="Nizkiz">Nizkiz</option>
+    <option value="Океан Ельзи">Океан Ельзи</option>
+    <option value="Boyce Avenue">Boyce Avenue</option>
+</select>
+
+<br>
+<fieldset>
+        <legend>Choose your hand:</legend>
+
+        <div>
+            <input type="checkbox" id="hand_right" name="scales">
+            <label for="hand_right">I use right hand</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="hand_left" name="horns">
+            <label for="hand_left">I use left hand</label>
+        </div>
+</fieldset>
+
+<br>
+<a id="link_w3school" href="https://www.w3schools.com">W3Schools.com link</a>
+
+<br>
+<input id ="button1" type="button" value="Click Me!">
+<script>
+    button1.onclick = function() {
+        alert('Thanks!');};
+</script>
+
+<br>
+<img id = "image" src="image.jpg" alt="oops, you found it">
+
+</body>
+</html>
